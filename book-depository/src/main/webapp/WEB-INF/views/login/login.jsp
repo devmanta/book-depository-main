@@ -2,26 +2,25 @@
   <h3 class="text-center">로그인</h3>
   <p class="text-center"><em>We love our fans!</em></p>
 
-  <div class="row">
-   
-    <div>
-      <div class="row">
-         <input class="form-control" id="name" name="id" placeholder="id" type="text" required="">
-      </div>
-      <br>
-      <div class="row">
-     	 <input class="form-control" id="email" name="email" placeholder="Email" type="email" required="">
-   	 </div>
-      <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">login</button>
-        </div>
-      </div>
+
+<form action="#">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
     </div>
-  </div>
-  <br>
-  <h3 class="text-center">여기에 구글, 카카오, 페이스북 로그인 연동 할 자리</h3>  
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <div class="form-group">
+    	<input type="submit" class="form-control btn btn-default" value="submit"/>
+    </div>
+  </form>
+
+ <h3 class="text-center">여기에 구글, 카카오, 페이스북 로그인 연동 할 자리</h3> 
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
     <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
