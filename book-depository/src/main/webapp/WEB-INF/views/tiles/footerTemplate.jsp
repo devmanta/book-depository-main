@@ -37,3 +37,4 @@ $(document).ready(function(){
   });
 })
 </script>
+<script type="text/javascript" src="/resource/script/bd_script.js"></script>
