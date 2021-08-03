@@ -6,7 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>INDEX 페이지입니다 다다</h2>
+	<h2>INDEX 페이지입니다</h2>
 	<img src="/resource/test.png" />
 </body>
 </html>
